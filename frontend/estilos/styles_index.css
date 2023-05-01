@@ -1,0 +1,67 @@
+* {
+    margin: 0;
+}
+
+
+body {
+    text-align: center;
+    justify-items: center;
+    background-attachment: fixed;
+    margin-right: 2px;
+    background-image: linear-gradient(rgba(0, 0, 255, 0.5), rgba(255, 255, 0, 0.5));
+}
+
+a {
+    font-weight: bold;
+    text-decoration: none;
+}
+
+h1 {
+    font-size: 2.5em;
+    color: blue, ;
+    text-align: center;
+}
+
+
+#boton-contenedor {
+    width: 45px;
+    height: 45px;
+}
+
+.contenido-index {
+    padding: 65px;
+}
+
+
+.projects-section {
+    padding: 32px 32px 0 32px;
+    display: flex;
+}
+
+.project-boxes {
+    margin: 0 auto;
+}
+
+.project-boxes.jsGridView {
+    display: flex;
+}
+
+.project-box {
+    border-radius: 30px;
+    padding: 16px;
+    background: rgba(0, 0, 255, 0.5);
+
+}
+
+.project-box-header span {
+    color: #4A4A4A;
+    font-size: 14px;
+}
+
+.project-box-wrapper {
+    padding: 8px;
+}
+
+img {
+    border-radius: 50%;
+}
